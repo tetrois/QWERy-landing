@@ -178,18 +178,10 @@ li {
     padding: 13px 0;
 }
 
-.main_info {
-    
-}
-
 .main_info > h1 {
     font-weight: 700;
     font-size: 96px;
     line-height: 100px;
-}
-
-.main_info > .title-text{
-    /* align-items: center; */
 }
 
 .main_info > p.title-text:before {
@@ -248,10 +240,6 @@ li {
     background: #FFC178;
     display: block;
     margin-right: 32px;
-}
-
-.card-block.main-title {
-
 }
 
 .card-block_info > .text {
