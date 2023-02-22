@@ -1,0 +1,161 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: white;
+}
+
+h3 {
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 6px;
+    color: #FFC178;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: "Open Sans";
+}
+
+p {
+    font-family: "Open Sans";
+}
+
+
+body {
+    background-image: url('../images/Background.svg');
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+/* ---------Header start*/
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 66px 85px 0 85px;
+}
+
+
+.header-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header-nav-item {
+    padding: 0 25px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.header-search {
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+}
+
+.header-search-icon {
+    padding: 0 14px;
+}
+
+/* ---------Header end*/
+
+
+/* ---------Main start*/
+
+.main_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 196px 0;
+}
+
+.main_side-menu {
+    display: flex;
+    flex-direction: column;
+
+    padding: 60px 79px;
+    width: auto;
+}
+
+.main_side-menu > p {
+    writing-mode: vertical-rl;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 0 0 9px 0;
+}
+
+.main_side-menu > a {
+    padding: 13px 0;
+}
+
+.main_info {
+    justify-content: center;
+}
+
+.main_info > h1 {
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 100px;
+}
+
+.main_info-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 6px;
+    color: #FFC178;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    padding: 0 0 32px 0;
+}
+
+.main_info-title:before {
+    content:"";
+    width:72px;
+    height:2px;
+    background:orange;
+    display: block;
+    margin-right: 32px;
+}
+
+.main_info-second-title {
+    font-weight: 400;
+    font-size: 88px;
+    line-height: 100px;
+    color: white;
+}
+
+.main_scroll {
+    display: flex;
+    justify-content: center;
+}
+
+.main_scroll > a {
+    padding: 9px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+}
