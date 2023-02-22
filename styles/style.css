@@ -40,7 +40,7 @@ p {
 }
 
 
-body {
+.main {
     background: url('../images/Background.png') no-repeat;
     background-color: black;
     background-size: 100%;
