@@ -213,10 +213,13 @@ main {
 .main_scroll {
     display: flex;
     justify-content: center;
+    margin: 0 auto;
+    max-width: 126px;
+    max-height: 26px;
 }
 
 .main_scroll > a {
-    padding: 9px;
+    padding-right: 9px;
     font-weight: 600;
     font-size: 18px;
     line-height: 25px;
@@ -238,8 +241,11 @@ main {
 }
 
 .card-block_image {
-    max-width: 598px;
-    max-height: 720px;
+    
+}
+
+.card-block_image img {
+    max-width: 100%;
 }
 
 
@@ -268,7 +274,7 @@ main {
     justify-content: space-between;
     margin: auto;
     align-items: center;
-    width: 1461px;
+    max-width: 100%;
     height: 985px;
     background-image: url('../images/image_2.png');
 }
@@ -485,6 +491,7 @@ footer {
 
 .footer-social_item {
     padding: 0 25px;
+    
 }
 
 .footer-copyright {
