@@ -5,78 +5,27 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/maketforfigma.css">
     <link rel="stylesheet" href="./styles/style.css">
 	<title>FIGMA | Макеты для верстки — Верстка страницы</title>
 	<meta name="description" content="Макет для верстки сайта был взял с телеграм канала FIGMA | Макеты для верстки">
 </head>
 <body>
     <!-- Начало: Данный блок удалять нельзя -->
-    <style>
-        .maketforfigma{
-            flex: 0 0 auto;
-            /*background: #303b44;*/
-            /*background: #5CDB95;*/
-            background: #313a46;
-            font-weight: bold;
-            display: flex;
-        }
-        .maketforfigma img{
-            border-radius: 10px;
-            margin: 4px 0 0 4px;
-        }
-        .maketforfigma p {
-            /*color: #fff;*/
-            /*color: #05386B;*/
-            color: #98a6ad;
-            text-decoration: none;
-            letter-spacing: .01875rem;
-            font-size: .775rem;
-            padding: 0 10px;
-            line-height: 0.70rem;
-        }
-
-        .maketforfigma p > a {
-            /*color: #08ff00;*/
-            /*color: #EDF5E1;*/
-            color: #bbe4f0;
-            font-weight: bold;
-        }
-        .maketforfigma p > a:hover {
-            /*color: #ffa001*/
-            /*color: #379683*/
-            color: #ffffff
-        }
-
-        .main{
-            flex: 1 0 auto;
-        }
-
-        html{
-            height: 100%;
-        }
-
-        body{
-            display: flex;
-            flex-direction: column;
-            height: 100%;
-            padding: 0;
-            margin: 0;
-        }
-    </style>
-    <div class="maketforfigma">
-        <a href="https://t.me/s/FigmaToHTML" target="_blank">
-            <img src="logo.png">
-        </a>
-        <div>
-            <p>
-                Данная верстка, была реализована пользователем в рамках обучающего телеграм канал <a href="https://t.me/s/FigmaToHTML/2" target="_blank">FIGMA | Макеты для верстки</a>
-            </p>
-            <p>
-                При помощи бота <a href="https://t.me/HtmlCodeForMoney_bot?from_git" target="_blank">FIGMA | 💵 Верстай за деньги</a> пользователь получил оплату за верстку этого сайта и попал в рейтинги сайта
-                <a href="https://maketforfigma.ru" target="_blank">FIGMA — Макеты для верстки</a>
-            </p>
+        <div class="maketforfigma">
+            <a href="https://t.me/s/FigmaToHTML" target="_blank">
+                <img src="logo.png" alt="Maket for figma logo">
+            </a>
+            <div>
+                <p>
+                    Данная верстка, была реализована пользователем в рамках обучающего телеграм канал <a href="https://t.me/s/FigmaToHTML/2" target="_blank">FIGMA | Макеты для верстки</a>
+                </p>
+                <p>
+                    При помощи бота <a href="https://t.me/HtmlCodeForMoney_bot?from_git" target="_blank">FIGMA | 💵 Верстай за деньги</a> пользователь получил оплату за верстку этого сайта и попал в рейтинги сайта
+                    <a href="https://maketforfigma.ru" target="_blank">FIGMA — Макеты для верстки</a>
+                </p>
+            </div>
         </div>
-    </div>
     <!-- Конец -->
 
     <div class="main">
@@ -86,16 +35,18 @@
                     <div class="header-name">
                         <a class="site-logo" href="#">QWERy</a>
                     </div>
-                    <nav class="header-nav">
-                        <li class="header-nav-item">
-                            <a href="#">Information</a>
-                        </li>
-                        <li class="header-nav-item">
-                            <a href="#">About us</a>
-                        </li>
-                        <li class="header-nav-item">
-                            <a href="#">Culture</a>
-                        </li>
+                    <nav>
+                        <ul class="header-nav">
+                            <li class="header-nav-item">
+                                <a href="#">Information</a>
+                            </li>
+                            <li class="header-nav-item">
+                                <a href="#">About us</a>
+                            </li>
+                            <li class="header-nav-item">
+                                <a href="#">Culture</a>
+                            </li>
+                        </ul>
                     </nav>
                     <div class="header-search">
                         <img class="header-search-icon" src="./images/cart.svg" alt="">
@@ -118,7 +69,7 @@
                     <div class="main_info">
                         <p class="title-text">EXPLORE THE NATURE BEAUTY</p>
             
-                        <h1>Discover</h1>
+                        <h2>Discover</h2>
                         <p class="main_info-second-title">Wonderful Indonesia</p>
                     </div>
                     <div>
@@ -140,7 +91,7 @@
                     <div class="card-block_info">
                         <p class="title-text">EAST NUSA TENGGARA</p>
             
-                        <h1 class="main-title">Have you <br/>enjoyed your <br/>holiday?</h1>
+                        <h2 class="main-title">Have you <br>enjoyed your <br>holiday?</h2>
                         <p class="text">You will be amazed if you take part in this sailing Komodo island tour package. So it is also mandatory for you, besides enjoying Komodo tourism on Komodo Island, you also have to taste the marine tourism.  The beautiful waters of Komodo will make you meet many travelers from other countries.</p>
                         
                         <div class="link-more">
@@ -161,14 +112,14 @@
     
                         <p class="title-text">BROMO</p>
                         <div class="slider-block_text">
-                            <h1 class="main-title">Steady your steps, we will climb together!</h1>
+                            <h2 class="main-title">Steady your steps, we will climb together!</h2>
             
                             <p class="text">Enjoying the vast expanse of the sea of ​​​​sand, witnessing the splendor of Mount Semeru that soars into the sky, and gazing at the beauty of the sun moving out of its bed or otherwise enjoying the dim twilight from the Bromo ridge is an unforgettable experience when visiting Bromo.</p>
                         </div>
     
                         <div class="link-more">
                             <a href="#">read more 
-                                <img class="link-more_arrow" src="./images/arrow_yellow_24px.svg">
+                                <img class="link-more_arrow" src="./images/arrow_yellow_24px.svg" alt="Link more">
                             </a>                    
                         </div>
                     </div>
@@ -185,12 +136,12 @@
                     <div class="card-block_info">
                         <p class="title-text">INDONESIAN CULTURE</p>
             
-                        <h1 class="main-title">Our culture here is very friendly to people</h1>
+                        <h2 class="main-title">Our culture here is very friendly to people</h2>
                         <p class="text">known for his politeness, manners and gentleness. This becomes a characteristic when they mingle with other tribes and become basic traits that are passed down by their ancestors.</p>
                         
                         <div class="link-more">
                             <a href="#">read more 
-                                <img class="link-more_arrow" src="./images/arrow_yellow_24px.svg">
+                                <img class="link-more_arrow" src="./images/arrow_yellow_24px.svg" alt="Link more">
                             </a>                    
                         </div>
                     </div>
@@ -220,7 +171,7 @@
                             <p>Let's go on vacation, Make your day</p>
                         </div>
                         <div class="footer-input-block_email">
-                            <input class="footer-input-block_input" type="email" placeholder="Email address"></input>
+                            <input class="footer-input-block_input" type="email" placeholder="Email address" />
                             <button class="footer-input-block_btn">
                                 <img src="./images/arrow_black.svg" alt="Arrow black">
                             </button>
